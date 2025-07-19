@@ -1,0 +1,121 @@
+/* Login/Signup Modal */
+.modal-content {
+    background-color: #fff;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-header {
+    background: linear-gradient(to right, #004d40, #26a69a); /* Teal gradient */
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    padding: 15px 20px;
+  }
+  
+  .modal-header .btn-close {
+    filter: invert(1); /* Make the close button white */
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group-text {
+    background-color: #e9ecef;
+    border: none;
+    color: #004d40; /* Teal color */
+  }
+  
+  .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .form-control:focus {
+    border-color: #26a69a; /* Teal color */
+    box-shadow: 0 0 5px rgba(38, 166, 154, 0.5); /* Teal shadow */
+  }
+  
+  .toggle-password {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 65%; 
+      right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .toggle-password i {
+    color: #666;
+  }
+  
+  .toggle-password:hover i {
+    color: #333;
+  }
+  
+  .text-danger {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #ff7043; /* Orange color for errors */
+  }
+  
+  .btn-primary {
+    background-color: #26a69a; /* Teal color */
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #004d40; /* Darker teal on hover */
+  }
+  
+  .btn-success {
+    background-color: #ff7043; /* Orange color */
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+  }
+  
+  #passwordHelp {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .text-center a {
+    color: #26a69a; /* Teal color */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .text-center a:hover {
+    color: #004d40; /* Darker teal on hover */
+    text-decoration: underline;
+  }
